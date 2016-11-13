@@ -1,0 +1,7 @@
+
+        body{
+        font-family: cursive!important;	
+        height: 100vh;
+        background: url("../img/bg.jpg") 50% fixed;
+        background-size: cover;
+}
