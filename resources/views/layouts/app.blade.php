@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{URL::asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('css/login.css')}}">
+    <link href="{{URL::asset('css/sweetalert.css')}}" rel="stylesheet">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -80,6 +81,7 @@
     <script src="{{URL::asset('js/jQuery-3.1.1.min.js')}}"></script>
     <script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
     <script src="{{URL::asset('js/login.js')}}"></script>
+    <script src="{{URL::asset('js/sweetalert.min.js')}}"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </body>
 </html>

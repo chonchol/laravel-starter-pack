@@ -16,6 +16,7 @@
         <link href="{{URL::asset('css/bootstrap.min.css')}}" rel="stylesheet">
         <link href="{{URL::asset('css/font-awesome.min.css')}}" rel="stylesheet">
         <link href="{{URL::asset('css/select2.min.css')}}" rel="stylesheet">
+        <link href="{{URL::asset('css/sweetalert.css')}}" rel="stylesheet">
 
 
         <!-- Scripts -->
@@ -92,6 +93,7 @@
         <script src="{{URL::asset('js/jQuery-3.1.1.min.js')}}"></script>
         <script src="{{URL::asset('js/select2.min.js')}}"></script>
         <script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{URL::asset('js/sweetalert.min.js')}}"></script>
         <script type="text/javascript">
             $(document).ready(function() {
               $(".selecting").select2({
@@ -100,7 +102,10 @@
               
             });
         </script>
+        <script type="text/javascript">
+            swal("Good job!", "You clicked the button!", "success");
 
+        </script>
 
 
         <script type="text/javascript">

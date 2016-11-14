@@ -30,3 +30,7 @@
         </div>
     </div>
 @endsection
+        <script type="text/javascript">
+            swal("Good job!", "You clicked the button!", "success");
+
+        </script>
